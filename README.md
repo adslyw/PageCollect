@@ -1,2 +1,2 @@
-# ImageSearch
-Search image by yandex
+# PageCollect
+click to save pages.
