@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "收藏",
+    "version": "1.0",
+    "description": "Right-click on an image to search it on Yandex.",
+    "permissions": [
+        "contextMenus",
+        "notifications",
+        "storage",
+        "tabs",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
